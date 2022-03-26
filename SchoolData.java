@@ -282,12 +282,12 @@ public class SchoolData
 	public static void main(String[] args) throws ClassNotFoundException, SQLException 
 	{
 		SchoolData sd=new SchoolData();
-		//sd.Student();
-		//sd.Teacher();
-		//sd.UseDatabase();
+		sd.Student();
+		sd.Teacher();
+		sd.UseDatabase();
 		sd.InsertRecord();
-		//sd.RetriveRecord();
-	    //sd.UpdateRecord();
+		sd.RetriveRecord();
+	    sd.UpdateRecord();
 	}
 
 }
